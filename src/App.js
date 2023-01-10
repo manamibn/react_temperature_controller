@@ -72,13 +72,13 @@ function App() {
       <div className="banner-text-container">{bannerTextValue}</div>
       <div className="button-temp-wrapper">
         <div className="button-container">
-          <div className="button1" onClick={decreaseTemp}>
+          <div className="button" onClick={decreaseTemp}>
             -
           </div>
         </div>
         <div className="temperature-display-container">{tempValue} &deg;C</div>
         <div className="button-container">
-          <div className="button2" onClick={increaseTemp}>
+          <div className="button" onClick={increaseTemp}>
             +
           </div>
         </div>

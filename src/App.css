@@ -23,10 +23,13 @@
 
 .button-container {
   width: 10%;
-  background-color: darkgray;
-  opacity: 100%;
+  vertical-align: middle;
+}
+
+.button {
+  background-color: grey;
   border-radius: 100px;
-  align-content: center;
+  height: 100%;
 }
 .zero {
   background-color: aqua;
