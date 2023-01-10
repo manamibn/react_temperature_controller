@@ -31,6 +31,11 @@
   border-radius: 100px;
   height: 100%;
 }
+
+.temperature-display-container {
+  width: 5%;
+}
+
 .zero {
   background-color: aqua;
 }
